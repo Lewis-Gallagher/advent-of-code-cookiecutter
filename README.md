@@ -5,7 +5,6 @@ This templates invokes a standardised directory structure, including a README.md
 
 To generate a new template, run the following:
 ```bash
-git clone https://github.com/Lewis-Gallagher/advent-of-code-cookiecutter.git
 pip install cookiecutter
-cookiecutter .
+cookiecutter https://github.com/Lewis-Gallagher/advent-of-code-cookiecutter
 ```
