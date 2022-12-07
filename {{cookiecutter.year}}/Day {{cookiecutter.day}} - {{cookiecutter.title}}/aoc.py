@@ -5,7 +5,7 @@ import os
 from typing import List, Any
 import timeit
 
-EXAMPLE_INPUT = '''
+EXAMPLE_INPUT = '''\
 '''
 EXAMPLE_OUTPUT_PART1 = 0
 EXAMPLE_OUTPUT_PART2 = 0
@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
     # Read puzzle input.
     with open(os.path.join(os.path.dirname(__file__), "input.txt"), "r", encoding="utf-8") as f:
-        data = _parse_input(f.read().splitlines())
+        data = _parse_input(f.read())
 
     # Print answers
     print(f'Part 1: { part_1_solution(data=data) }')
