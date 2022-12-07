@@ -14,7 +14,7 @@ EXAMPLE_OUTPUT_PART1 = 0
 EXAMPLE_OUTPUT_PART2 = 0
 
 
-def _parse_input(data: List[str]) -> List[str]:
+def _parse_input(data: str) -> List[str]:
     """Parse input text file into usable data structure."""
 
     return data
