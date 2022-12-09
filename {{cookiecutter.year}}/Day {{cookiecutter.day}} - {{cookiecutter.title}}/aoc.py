@@ -1,5 +1,6 @@
 """
 Solution for Advent of Code {{cookiecutter.year}} day {{cookiecutter.day}} - https://adventofcode.com/{{cookiecutter.year}}/day/{{cookiecutter.day}}
+{{cookiecutter.name}} - {{cookiecutter.email}}
 """
 
 import os
