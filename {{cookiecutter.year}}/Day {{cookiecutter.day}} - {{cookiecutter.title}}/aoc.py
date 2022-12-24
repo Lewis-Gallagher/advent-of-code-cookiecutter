@@ -1,11 +1,11 @@
 """
 Solution for Advent of Code {{cookiecutter.year}} day {{cookiecutter.day}} - https://adventofcode.com/{{cookiecutter.year}}/day/{{cookiecutter.day}}
-{{cookiecutter.name}} - {{cookiecutter.email}}
+Author: {{cookiecutter.name}}
 """
 
 import os
 from typing import List, Any
-import timeit
+import time
 
 
 EXAMPLE_INPUT = '''\
@@ -45,6 +45,12 @@ if __name__ == "__main__":
         data = _parse_input(f.read())
 
     # Print answers
-    print(f'Part 1: { part_1_solution(data=data) }')
-    print(f'Part 2: { part_2_solution(data=data) }')
-    print(timeit.timeit())
+    start_time_1 = time.time()
+    print(f'Part 1: { part_1_solution(data) }')
+    execution_time_1 = (time.time() - start_time_1)
+    print('Part 1 execution time: ' + str(execution_time_1))
+
+    start_time_2 = time.time()
+    print(f'Part 2: { part_2_solution(data) }')
+    execution_time_2 = (time.time() - start_time_2)
+    print('Part 2 execution time: ' + str(execution_time_2))
