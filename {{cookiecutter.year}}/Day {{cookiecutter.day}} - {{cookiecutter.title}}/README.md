@@ -6,5 +6,5 @@ https://adventofcode.com/{{cookiecutter.year}}/day/{{cookiecutter.day}}
 # Run
 To complete this problem, run:
 ```
-python aoc.py
+python solution.py
 ```
