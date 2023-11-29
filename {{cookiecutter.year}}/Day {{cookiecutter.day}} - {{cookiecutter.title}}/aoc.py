@@ -46,11 +46,11 @@ if __name__ == "__main__":
 
     # Print answers
     start_time_1 = time.time()
-    print(f'Part 1: { part_1_solution(data) }')
+    print(f'\nPart 1: { part_1_solution(data) }')
     execution_time_1 = (time.time() - start_time_1)
-    print('Part 1 execution time: ' + str(execution_time_1))
+    print(f'Part 1 execution time: {execution_time_1:.4f}')
 
     start_time_2 = time.time()
-    print(f'Part 2: { part_2_solution(data) }')
+    print(f'\nPart 2: { part_2_solution(data) }')
     execution_time_2 = (time.time() - start_time_2)
-    print('Part 2 execution time: ' + str(execution_time_2))
+    print(f'Part 2 execution time: {execution_time_1:.4f}')
