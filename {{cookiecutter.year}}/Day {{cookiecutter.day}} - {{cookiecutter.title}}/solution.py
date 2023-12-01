@@ -53,4 +53,4 @@ if __name__ == "__main__":
     start_time_2 = time.time()
     print(f'\nPart 2: { part_2_solution(data) }')
     execution_time_2 = (time.time() - start_time_2)
-    print(f'Part 2 execution time: {execution_time_1:.4f}')
+    print(f'Part 2 execution time: {execution_time_2:.4f}')
