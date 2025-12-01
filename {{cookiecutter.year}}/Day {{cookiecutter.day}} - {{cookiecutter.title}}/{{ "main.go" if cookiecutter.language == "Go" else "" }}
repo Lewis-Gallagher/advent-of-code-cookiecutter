@@ -4,9 +4,9 @@ package main
 
 import (
     "time"
-	"fmt"
-	"os"
-	"strings"
+    "fmt"
+    "os"
+    "strings"
 )
 
 // Execute and time a function call.
@@ -22,14 +22,14 @@ func timeAndPrint(label string, fn func()) {
 
 
 func readInputFile(filename string) ([]string, error) {
-	content, err := os.ReadFile(filename)
-	if err != nil {
-		return nil, fmt.Errorf("failed to read input file: %w", err)
-	}
+    content, err := os.ReadFile(filename)
+    if err != nil {
+        return nil, fmt.Errorf("failed to read input file: %w", err)
+    }
 
-	// Split the content into lines, trimming any trailing whitespace (like a final newline)
-	inputData := strings.Split(strings.TrimSpace(string(content)), "\n")
-	return inputData, nil
+    // Split the content into lines, trimming any trailing whitespace (like a final newline)
+    inputData := strings.Split(strings.TrimSpace(string(content)), "\n")
+    return inputData, nil
 }
 
 
@@ -60,9 +60,9 @@ func main() {
     exampleOutputTwo := 0
 
     // Run and print example tests
-	fmt.Println("--- Example Test ---")
+    fmt.Println("--- Example Test ---")
     fmt.Printf("Example Part 1 Answer: %d, Expected: %d\n", solvePartOne(exampleData), exampleOutputOne)
-	fmt.Printf("Example Part 2 Answer: %d, Expected: %d\n\n", solvePartTwo(exampleData), exampleOutputTwo)
+    fmt.Printf("Example Part 2 Answer: %d, Expected: %d\n\n", solvePartTwo(exampleData), exampleOutputTwo)
 
     // --- LIVE SOLUTION ---
     content, err := os.ReadFile("input.txt")
