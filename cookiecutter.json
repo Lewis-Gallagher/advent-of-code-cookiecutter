@@ -1,6 +1,10 @@
 {
-    "year": "2024",
+    "year": "2025",
     "day": "0",
     "title": "Challenge Title",
-    "language": "Python3"
+    "language": ["Python", "Go"],
+    "_copy_without_render": [
+        "*.go",
+        "*.py"
+      ]
 }
