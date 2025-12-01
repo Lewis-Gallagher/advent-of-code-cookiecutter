@@ -1,4 +1,4 @@
-// Advent of Code {{ cookiecutter.year }} - {{ cookiecutter.project_slug }}
+// Go solution for Advent of Code {{cookiecutter.year}} day {{cookiecutter.day}} - https://adventofcode.com/{{cookiecutter.year}}/day/{{cookiecutter.day}}
 
 package main
 
